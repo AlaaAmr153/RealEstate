@@ -1,0 +1,674 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(47, 47, 47);
+}
+
+
+
+/* navbar */
+.header nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.header nav ul {
+    list-style: none;
+    display: flex;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+}
+.contact-us{
+    display: flex;
+    padding-left: 10px;
+}
+.contact-us i{
+    padding-left: 5px;
+}
+.flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.flag img{
+    padding-left: 10px;
+}
+.header .main-logo{
+    width: 30%;
+}
+.header .main-logo img{
+    width:60px;
+} 
+
+
+
+/* first dection */
+.header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us {
+    width: 65%;
+    text-align: left;
+    color: white;
+    padding-left: 50px;
+}
+.about-us h1 {
+    font-size: 95px;
+}
+.about-us p {
+    padding-top: 25px;
+    line-height: 30px;
+    color: rgb(161, 161, 161);
+}
+.btn1 {
+    width: 70%;
+    display: flex;
+    margin-top: 30px;
+}
+.btn1 input {
+    width: 826px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding-left: 10px;
+}
+.btn1 button {
+    width: 300px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 0 5px 5px 0;
+}
+.image {
+    width: 35%;
+}
+.image img {
+    width: 420px;
+    height: 585px;
+    object-fit: cover;
+    border-radius: 300px 300px 0px 0px;
+}
+
+
+
+
+/* second section */
+.main-content {
+    height: 60vh;
+    text-align: center;
+}
+.main-content h1::after {
+    content: '';
+    position: absolute;
+    transform: translateY(-50%);
+    bottom: -50px;
+    left: 47.5%;
+    width: 68px;
+    height: 1px;
+    background-color: red;
+}
+.circle , .circle1 {
+    position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+    left: 190px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid  rgb(161, 161, 161);
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.circle1::after{
+    content: '';
+    left: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 25px;
+    width:390px;
+    height: 1.5px;
+    background-color:  rgb(161, 161, 161);
+}
+.circle1::before{
+    content: '';
+    right: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width:390px;
+    height: 1.5px;
+    background-color: rgb(161, 161, 161);
+}
+.main-content img {
+    width: 20%;
+}
+.main-content h2,.main-content h1 {
+    color: white;
+}
+.main-content h2{
+    padding-bottom: 15px;
+}
+.main-content p {
+    color: rgb(161, 161, 161);
+    line-height: 30px;
+}
+.how-it-works {
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+    align-items: center;
+}
+.location , .document , .team{
+    height: 400px;
+}
+
+
+
+
+
+/* inputs */
+.maincontent{
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.title p{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(161, 161, 161);
+    margin-bottom: 20px;
+}
+.inputs{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.images{
+    margin-bottom: 100px;
+}
+.img1{
+    width: 387px;
+    height: 387px;
+    object-fit: cover;
+}
+.img2{
+    position: relative;
+    top: 130px;
+    left: 180px;
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+}
+.inputs select , .inputs input{
+    background-color: rgb(0, 0, 0 ,0.1);
+    margin-bottom: 15px;
+    color: white;
+    width: 365px;
+    height: 42px;
+    border: none;
+    border-radius: 3px;
+}
+.inputs button{
+    font-size: 20px;
+    background-color:rgb(6, 192, 156) ;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    width: 199px;
+    height: 48px;
+}
+.second button{
+    position: relative;
+    left: 45%;
+}
+
+
+
+
+/* address content */
+.address{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.address h1{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.address h2{
+    color: white;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.address p{
+    color: rgb(161, 161, 161);
+    font-size: 24px;
+    line-height: 28.32px;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+.address button{
+    width: 515px;
+    height: 60px;
+    background-color: rgb(6, 192, 156);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+}
+.map{
+    width: 60%;
+}
+.address-content{
+    width: 40%;
+}
+.map img{
+    border-radius: 10px;
+    width: 750px;
+    height: 533px;
+    margin-left: 60px;
+}
+
+
+
+/* glass layer */
+.glass-layer{
+    position: absolute;
+    left: 10%;
+    margin-top: 100px;
+    width: 1123px;
+    height: 567px;
+    background-color: rgb(255, 255, 255 ,0.1);
+    box-shadow: 0 25px 45px rgb(0, 0, 0 ,0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    z-index: 5;
+}
+.glass h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.glass p{
+    font-size: 25px;
+    line-height: 30px;
+    color: rgb(203, 203, 203);
+}
+.glass p{
+    margin-bottom: 25px;
+}
+.glass i{
+    font-size: 30px;
+    margin: 20px;
+}
+.glass button{
+    background-color: rgb(6, 192, 156);
+    color: white;
+    border: none;
+    width:199px ;
+    height:48px ;
+    border-radius: 3px;
+}
+
+
+
+
+
+/* footer section */
+footer {
+    height: 40vh;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo {
+    display: flex;
+}
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.paragraph img{
+    width: 18%;
+    margin-right: 15px;
+}
+.paragraph p {
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(161, 161, 161);
+}
+.contact {
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+.email p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.email input {
+    width: 280px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+footer::before{
+    content: '';
+    position: absolute;
+    margin-bottom: 250px;
+    width:90%;
+    height: 1.2px;
+    background-color:  rgb(161, 161, 161);
+}
+
+
+
+
+@media all and (max-width:900px) {
+    /* first section */
+    .image img {
+        width: 175px;
+        height: 250px;
+        object-fit: cover;
+        padding-bottom: 150px;
+    }
+    .about-us h1 {
+        padding-top: 60px;
+        font-size: 55px;
+        line-height: 80px;
+    }
+    .content p {
+        width: 130%;
+        font-size:25px;
+        padding-top: 62px;
+        line-height: 30px;
+        color: rgb(161, 161, 161);
+    }
+    .btn1 {
+        width: 130%;
+    }
+        .btn1 input {
+            width: 1000px;
+            height: 60px;
+            font-size: 20px;
+    }
+    .btn1 button {
+        height: 60px;
+    }
+
+
+
+
+
+    /* second section */
+    .main-content {
+        height: 80vh;
+    }
+    .main-content h1::after {
+        left: 46%;
+    }
+    .main-content p {
+        line-height: 20px;
+    }
+    .circle , .circle1 {
+        top: 23px;
+        left:0px;
+        height: 35px;
+        width: 35px;
+        border: 3.5px solid;
+    }
+    .circle1::after{
+        display: none;
+    }
+    .circle1::before{
+        display: none;
+    }
+    .vertical-before{
+        border-left: 5px solid white ;
+        height: 160px;
+        position: relative;
+        left: 26px;
+        bottom: 102px;
+    }
+    .vertical-after{
+        border-left: 5px solid white;
+        height: 162px;
+        position: relative;
+        left: 23px;
+        top: 98px;
+    }
+    .main-content img {
+        width: 8%;
+        padding: 20px;
+    }
+    .main-content h2{
+        padding-bottom: 5px;
+    }
+    .how-it-works {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        align-items: center;
+    }
+    .location , .document , .team{
+        width: 100%;
+        height: 200px;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .document{
+        padding-left: 20px;
+    }
+    .team{
+        padding-left: 5px;
+    }
+
+
+
+
+
+
+    /* third section */
+    .map img{
+    width: 350px;
+    }
+    .map{
+        padding-right: 50px;
+    }
+    .address{
+        padding-right: 20px;
+    }
+    .address h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .address h2{
+        color: white;
+        font-size: 20px;
+    }
+    .address p{
+        font-size: 15px;
+        line-height: 17px;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    .address button{
+        width: 200px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+
+
+    /* forth section */
+    .title h1{
+        font-size: 40px;
+        margin-left: 30px;
+    }
+    .title p{
+        font-size: 18px;
+        line-height: 20px;
+        margin-left: 30px;
+    }
+    .inputs{
+        display: block;
+        font-size: 15px;
+    }
+    .img1{
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .img2{
+        position: relative;
+        top: 350px;
+        left: -50px;
+        width: 170px;
+        height: 170px;
+        object-fit: cover;
+    }
+    .inputs select , .inputs input{
+        width: 270px;
+        height: 30px;
+        margin-left: 30px;
+    }
+    .inputs label{
+        margin-left: 30px;
+    }
+    .inputs button{
+        font-size: 15px;
+        width: 100px;
+        height: 40px;
+    }
+    .second button{
+        position: relative;
+        left: 45%;
+    }
+
+    /* glass layer */
+.glass-layer{
+    margin-top: 100px;
+    width: 550px;
+    height: 550px;
+}
+.glass h1{
+    font-size: 40px;
+}
+.glass p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.glass i{
+    font-size: 25px;
+    margin: 20px;
+}
+.glass button{
+    width:150px ;
+}
+
+/* footer */
+footer {
+    height: 40vh;
+    padding: 70px;
+    display:block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+.logo {
+    display: block;
+    margin-top: 20px;
+    }
+.paragraph {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    }
+.paragraph img{
+    width: 10%;
+    }
+.paragraph p {
+    display: none;
+    }
+.contact {
+    width: 300px;
+    margin: 30px 150px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    }
+.email p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    }
+.email input {
+    width: 230px;
+    height: 30px;
+    border: none;
+    /* outline: none; */
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    }
+footer::before{
+    content: '';
+    position: absolute;
+    margin-bottom: 250px;
+    right: 40px;
+    width:90%;
+    height: 1.2px;
+    background-color:  rgb(161, 161, 161);
+    }
+}
